@@ -13,6 +13,8 @@ alias zshconfig="mvim ~/.zshrc"
 alias bx="bundle exec"
 alias rspec="nocorrect rspec"
 alias reload="source ~/.zshrc"
+alias gaa="git add -A"
+alias dbinit="rake db:drop db:create db:migrate db:seed"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -53,4 +55,3 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # Customize to your needs...
 export PATH=./bin:$PATH
 
-bindkey -v
