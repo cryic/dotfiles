@@ -14,7 +14,9 @@ alias bx="bundle exec"
 alias rspec="nocorrect rspec"
 alias reload="source ~/.zshrc"
 alias gaa="git add -A"
-alias dbinit="rake db:drop db:create db:migrate db:seed"
+alias gwd="git diff --word-diff"
+alias gwdc="git diff --cached --word-diff"
+alias dbprep="rake db:drop db:create db:migrate db:seed"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
