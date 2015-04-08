@@ -7,10 +7,14 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'bling/vim-airline'
 Plugin 'janx/vim-rubytest'
+Plugin 'pangloss/vim-javascript'
+Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'burnettk/vim-angular'
 Plugin 'kien/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
-Plugin 'scrooloose/nerdtree'
+Plugin 'shougo/unite.vim'
+Plugin 'Shougo/vimfiler.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'skwp/greplace.vim'
 Plugin 'tpope/vim-fugitive'
@@ -37,7 +41,7 @@ set hls
 set number
 set autoindent
 
-autocmd Filetype ruby set shiftwidth=2
+set shiftwidth=2
 
 set tabstop=2
 "use spaces instead of tabs
@@ -55,6 +59,7 @@ set nofoldenable        "dont fold by default
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+let g:vimfiler_as_default_explorer = 1
 
 set backspace=indent,eol,start
 
@@ -62,7 +67,7 @@ nmap <Leader>E :e!<CR>
 nmap <Leader>e :e 
 nmap <Leader>h :noh<CR>
 nmap <Leader>i <C-i>
-nmap <Leader>n :NERDTreeToggle<CR>
+nmap <Leader>n :VimFiler -toggle<CR>
 nmap <Leader>o <C-o>
 nmap <Leader>w :w<CR>
 
