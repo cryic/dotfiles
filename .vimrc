@@ -67,7 +67,7 @@ nmap <Leader>E :e!<CR>
 nmap <Leader>e :e 
 nmap <Leader>h :noh<CR>
 nmap <Leader>i <C-i>
-nmap <Leader>n :VimFiler -toggle<CR>
+nmap <Leader>n :VimFiler -buffer-name=explorer -split -simple -winwidth=35 -toggle -no-quit<CR>
 nmap <Leader>o <C-o>
 nmap <Leader>w :w<CR>
 
