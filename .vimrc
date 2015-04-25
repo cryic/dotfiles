@@ -23,6 +23,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'rking/ag.vim'
 Plugin 'rizzatti/funcoo.vim'
 Plugin 'rizzatti/dash.vim'
+Plugin 'endel/vim-github-colorscheme'
 
 call vundle#end()
 filetype plugin indent on 
