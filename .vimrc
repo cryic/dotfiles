@@ -6,23 +6,15 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'bling/vim-airline'
-Plugin 'janx/vim-rubytest'
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'kchmck/vim-coffee-script'
-Plugin 'burnettk/vim-angular'
-Plugin 'kien/ctrlp.vim'
-Plugin 'mileszs/ack.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'shougo/unite.vim'
 Plugin 'Shougo/vimfiler.vim'
 Plugin 'scrooloose/syntastic'
-Plugin 'skwp/greplace.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
 Plugin 'rking/ag.vim'
-Plugin 'rizzatti/funcoo.vim'
-Plugin 'rizzatti/dash.vim'
 Plugin 'endel/vim-github-colorscheme'
 
 call vundle#end()
@@ -61,6 +53,8 @@ set nofoldenable        "dont fold by default
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:vimfiler_as_default_explorer = 1
+let g:ctrlp_max_files = 10000
+let g:ctrlp_max_depth = 40
 
 set backspace=indent,eol,start
 
