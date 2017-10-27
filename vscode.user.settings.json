@@ -1,0 +1,30 @@
+{
+    //editor
+    //scope: within buffer window
+    "editor.lineNumbers": "relative",
+    "editor.renderWhitespace": "boundary",
+
+    //workbench
+    //scope: vscode-wide
+    "workbench.iconTheme": "vscode-icons",
+
+    //emmet
+    "emmet.triggerExpansionOnTab": true,
+
+    //vim
+    "vim.enableNeovim": true,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["f", "d"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["j"],
+            "after": ["g", "j"]
+        }
+    ],
+    "workbench.sideBar.location": "right"
+}
