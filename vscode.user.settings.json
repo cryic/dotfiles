@@ -3,6 +3,8 @@
     //scope: within buffer window
     "editor.lineNumbers": "relative",
     "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 2,
+    "editor.fontFamily": "'Input Mono', Menlo, Monaco, 'Courier New', monospace",
 
     //workbench
     //scope: vscode-wide
