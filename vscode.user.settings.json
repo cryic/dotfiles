@@ -6,10 +6,6 @@
     "editor.tabSize": 2,
     "editor.fontFamily": "'Input Mono', Menlo, Monaco, 'Courier New', monospace",
 
-    //workbench
-    //scope: vscode-wide
-    "workbench.iconTheme": "vscode-icons",
-
     //emmet
     "emmet.triggerExpansionOnTab": true,
 
@@ -28,5 +24,18 @@
             "after": ["g", "j"]
         }
     ],
-    "workbench.sideBar.location": "right"
+    "workbench.sideBar.location": "right",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "workbench.iconTheme": "material-icon-theme",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    }
 }
