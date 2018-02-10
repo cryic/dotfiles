@@ -38,5 +38,6 @@
         "suppressUpdateNotice": false,
         "suppressWelcomeNotice": true
     },
-    "editor.multiCursorModifier": "alt"
+    "editor.multiCursorModifier": "alt",
+    "workbench.statusBar.feedback.visible": false
 }
