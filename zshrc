@@ -17,3 +17,4 @@ source $HOME/.asdf/completions/asdf.bash
 
 source ~/dotfiles/env_var.zsh
 source ~/dotfiles/aliases.zsh
+source ~/dotfiles/iterm2_shell_integration.zsh
