@@ -5,6 +5,7 @@
     "editor.renderWhitespace": "boundary",
     "editor.tabSize": 2,
     "editor.fontFamily": "'Input Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.formatOnSave": true,
 
     //emmet
     "emmet.triggerExpansionOnTab": true,
