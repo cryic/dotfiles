@@ -47,7 +47,11 @@
         "suppressGitVersionWarning": false,
         "suppressLineUncommittedWarning": false,
         "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
         "suppressUpdateNotice": false,
         "suppressWelcomeNotice": true
     },
+    "gitlens.keymap": "none",
+    "solargraph.commandPath": "/Users/mat/.asdf/shims/solargraph",
 }
