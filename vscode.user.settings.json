@@ -6,10 +6,17 @@
     "editor.tabSize": 2,
     "editor.fontFamily": "'Input Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.formatOnSave": true,
-
+    "editor.wordWrap": "on",
+    //general settings
+    "workbench.sideBar.location": "right",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.multiCursorModifier": "alt",
+    "workbench.statusBar.feedback.visible": false,
+    //extensions
     //emmet
     "emmet.triggerExpansionOnTab": true,
-
     //vim
     "vim.enableNeovim": true,
     "vim.neovimPath": "/usr/local/bin/nvim",
@@ -21,25 +28,27 @@
     "vim.leader": "<space>",
     "vim.insertModeKeyBindings": [
         {
-            "before": ["f", "d"],
-            "after": ["<Esc>"]
+            "before": [
+                "f",
+                "d"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         }
     ],
     "vim.otherModesKeyBindingsNonRecursive": [
         {
-            "before": ["j"],
-            "after": ["g", "j"]
+            "before": [
+                "j"
+            ],
+            "after": [
+                "g",
+                "j"
+            ]
         }
     ],
-
-    //general settings
-    "workbench.sideBar.location": "right",
-    "window.zoomLevel": 0,
-    "workbench.colorTheme": "Tomorrow Night Blue",
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.multiCursorModifier": "alt",
-    "workbench.statusBar.feedback.visible": false,
-
+    //gitlens
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -53,5 +62,6 @@
         "suppressWelcomeNotice": true
     },
     "gitlens.keymap": "none",
+    //solargraph
     "solargraph.commandPath": "/Users/mat/.asdf/shims/solargraph",
 }
