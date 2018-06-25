@@ -15,9 +15,13 @@
         "requireFiles": [
           "test/**/test_helper.exs",
           "test/**/*_test.exs"
-        ],
+        ]
       },
-      "problemMatcher": "$mixTestFailure"
+      "problemMatcher": "$mixTestFailure",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
     }
   ]
 }
