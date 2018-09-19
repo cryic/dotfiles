@@ -15,6 +15,19 @@ fi
 source $HOME/.asdf/asdf.sh
 source $HOME/.asdf/completions/asdf.bash
 
+#setup rbenv
+eval "$(rbenv init -)"
+
 source ~/dotfiles/env_var.zsh
 source ~/dotfiles/aliases.zsh
 source ~/dotfiles/iterm2_shell_integration.zsh
+
+export GPG_TTY=$(tty)
+
+eval export
+
+alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+
+bindkey -v
+
+export PATH="/usr/local/opt/openssl/bin:$PATH"

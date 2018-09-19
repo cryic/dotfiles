@@ -9,11 +9,12 @@
     "editor.wordWrap": "on",
     //general settings
     "workbench.sideBar.location": "right",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "workbench.colorTheme": "Tomorrow Night Blue",
     "workbench.iconTheme": "material-icon-theme",
     "editor.multiCursorModifier": "alt",
     "workbench.statusBar.feedback.visible": false,
+    "files.insertFinalNewline": true,
     //extensions
     //emmet
     "emmet.triggerExpansionOnTab": true,
@@ -63,5 +64,6 @@
     },
     "gitlens.keymap": "none",
     //solargraph
-    "solargraph.commandPath": "/Users/mat/.asdf/shims/solargraph",
+    "solargraph.commandPath": "/Users/matthew.clutter/.rbenv/shims/solargraph",
+    "ruby.intellisense": "rubyLocate",
 }

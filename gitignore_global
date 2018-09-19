@@ -42,3 +42,4 @@ Thumbs.db
 # vscode work directories
 .elixir_ls
 .vscode
+.solargraph.yml
