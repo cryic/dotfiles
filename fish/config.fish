@@ -7,35 +7,34 @@ set -U EDITOR nvim
 set ERL_AFLAGS "-kernel shell_history enabled"
 
 ## aliases
-#alias bx='bundle exec'
+# rails/gem
 function bx --description 'alias bx=bundle exec'
   bundle exec
 end
-#alias gaa='git add -A'
+# git
 function gaa --description 'alias gaa=git add -A'
   git add -A
 end
-#alias gwd="git diff --word-diff"
 function gwd --description 'alias gwd=git diff --word-diff'
   git diff --word-diff
 end
-#alias gwdc="git diff --cached --word-diff"
 function gwdc --description 'alias gwdc=git diff --cached --word-diff'
   git diff --cached --word-diff
 end
-#alias gst="git status"
 function gst --description 'alias gst=git status'
   git status
 end
-#alias gp="git push"
 function gp --description 'alias gp=git push'
   git push
 end
-#alias gcm="git commit -m"
 function gcm --wraps git --description 'alias gcm=git commit -m'
   git commit -m $argv
 end
-#alias code="vscodium"
+function gco --wraps git --description 'alias gco=git checkout'
+  git checkout $argv
+end
+
+# app
 function code --wraps vscodium --description 'alias code=vscodium'
   vscodium $argv
 end
