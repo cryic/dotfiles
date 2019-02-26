@@ -1,0 +1,1 @@
+/Users/matthew.clutter/.local/share/omf/themes/batman/fish_prompt.fish

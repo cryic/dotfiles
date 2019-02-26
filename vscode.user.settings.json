@@ -1,16 +1,12 @@
 {
-    //editor
-    //scope: within buffer window
-    "editor.lineNumbers": "relative",
     "editor.renderWhitespace": "boundary",
     "editor.tabSize": 2,
     "editor.fontFamily": "'Input Mono', Menlo, Monaco, 'Courier New', monospace",
-    "editor.formatOnSave": true,
     "editor.wordWrap": "on",
     //general settings
     "workbench.sideBar.location": "right",
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "Tomorrow Night Blue",
+    "workbench.colorTheme": "Cyberpunk",
     "workbench.iconTheme": "material-icon-theme",
     "editor.multiCursorModifier": "alt",
     "workbench.statusBar.feedback.visible": false,
@@ -66,4 +62,14 @@
     //solargraph
     "solargraph.commandPath": "/Users/matthew.clutter/.rbenv/shims/solargraph",
     "ruby.intellisense": "rubyLocate",
+    "eslint.alwaysShowStatus": true,
+    "editor.lineNumbers": "relative",
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": true,
+    "[handlebars]": {
+        "editor.formatOnSave": false,
+    },
+    "files.associations": {
+        "*.eex": "HTML (Eex)"
+    },
 }

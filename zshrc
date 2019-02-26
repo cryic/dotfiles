@@ -16,7 +16,7 @@ source $HOME/.asdf/asdf.sh
 source $HOME/.asdf/completions/asdf.bash
 
 #setup rbenv
-eval "$(rbenv init -)"
+#eval "$(rbenv init -)"
 
 source ~/dotfiles/env_var.zsh
 source ~/dotfiles/aliases.zsh
