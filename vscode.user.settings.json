@@ -72,4 +72,5 @@
     "files.associations": {
         "*.eex": "HTML (Eex)"
     },
+    "editor.snippetSuggestions": "top",
 }

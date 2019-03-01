@@ -24,7 +24,7 @@ end
 function gst --description 'alias gst=git status'
   git status
 end
-function gp --description 'alias gp=git push'
+function gp --wraps git --description 'alias gp=git push'
   git push
 end
 function gcm --wraps git --description 'alias gcm=git commit -m'
@@ -32,6 +32,12 @@ function gcm --wraps git --description 'alias gcm=git commit -m'
 end
 function gco --wraps git --description 'alias gco=git checkout'
   git checkout $argv
+end
+function gfr --wraps git --description 'alias gfr=git fetch --all'
+  git fetch --all
+end
+function gitclean --description 'prunes remote references then deletes local branches'
+  git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d
 end
 
 # app
