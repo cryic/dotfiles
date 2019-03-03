@@ -15,6 +15,9 @@ end
 function gaa --description 'alias gaa=git add -A'
   git add -A
 end
+function gd --description 'alias gd=git diff'
+  git diff
+end
 function gwd --description 'alias gwd=git diff --word-diff'
   git diff --word-diff
 end
