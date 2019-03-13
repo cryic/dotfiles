@@ -5,6 +5,9 @@ source ~/.asdf/asdf.fish
 set -U EDITOR nvim
 # enable erlang/elixir shell history
 set ERL_AFLAGS "-kernel shell_history enabled"
+#gpg code signing
+set -x GPG_TTY (tty)
+set -x SSH_AUTH_SOCK ~/.gnupg/S.gpg-agent.ssh
 
 ## aliases
 # rails/gem
@@ -40,7 +43,7 @@ function gfr --wraps git --description 'alias gfr=git fetch --all'
   git fetch --all
 end
 function gitclean --description 'prunes remote references then deletes local branches'
-  git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d
+  git remote prune origin | git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d
 end
 
 # app
