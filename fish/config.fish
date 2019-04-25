@@ -36,7 +36,7 @@ end
 function gcm --wraps git --description 'alias gcm=git commit -m'
   git commit -m $argv
 end
-function gco --wraps git --description 'alias gco=git checkout'
+function gco --wraps 'git checkout' --description 'alias gco=git checkout'
   git checkout $argv
 end
 function gfr --wraps git --description 'alias gfr=git fetch --all'

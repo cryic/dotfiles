@@ -62,7 +62,6 @@
     //solargraph
     "solargraph.commandPath": "/Users/matthew.clutter/.rbenv/shims/solargraph",
     "ruby.intellisense": "rubyLocate",
-    "eslint.alwaysShowStatus": true,
     "editor.lineNumbers": "relative",
     "editor.formatOnSave": true,
     "files.trimTrailingWhitespace": true,
@@ -73,4 +72,8 @@
         "*.eex": "HTML (Eex)"
     },
     "editor.snippetSuggestions": "top",
+    "editor.minimap.enabled": false,
+    "prettier.eslintIntegration": true,
+    "javascript.format.enable": false,
+    "eslint.alwaysShowStatus": true,
 }
