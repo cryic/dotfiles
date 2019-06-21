@@ -6,7 +6,6 @@
     //general settings
     "workbench.sideBar.location": "right",
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "Cyberpunk",
     "workbench.iconTheme": "material-icon-theme",
     "editor.multiCursorModifier": "alt",
     "workbench.statusBar.feedback.visible": false,
@@ -62,7 +61,6 @@
     //solargraph
     "solargraph.commandPath": "/Users/matthew.clutter/.rbenv/shims/solargraph",
     "ruby.intellisense": "rubyLocate",
-    "editor.lineNumbers": "relative",
     "editor.formatOnSave": true,
     "files.trimTrailingWhitespace": true,
     "[handlebars]": {
@@ -76,4 +74,15 @@
     "prettier.eslintIntegration": true,
     "javascript.format.enable": false,
     "eslint.alwaysShowStatus": true,
+    "vscode_custom_css.imports": [
+        "file:///Users/matthew.clutter/dotfiles/styles/synthwave84.css"
+    ],
+    "vscode_custom_css.policy": true,
+    "liveshare.featureSet": "insiders",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.colorTheme": "Cyberpunk",
+    "editor.lineNumbers": "relative",
+    "explorer.openEditors.visible": 0,
 }
