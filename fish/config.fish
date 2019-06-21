@@ -45,6 +45,9 @@ end
 function gitclean --description 'prunes remote references then deletes local branches'
   git remote prune origin | git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d
 end
+function gatsdev --description 'alias gatsdev=rm -rf .cache; gatsby develop'
+  rm -rf .cache; gatsby develop
+end
 
 # app
 function code --wraps vscodium --description 'alias code=vscodium'
