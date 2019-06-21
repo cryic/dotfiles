@@ -13,6 +13,9 @@
     //extensions
     //emmet
     "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
     //vim
     "vim.enableNeovim": true,
     "vim.neovimPath": "/usr/local/bin/nvim",
@@ -67,7 +70,8 @@
         "editor.formatOnSave": false,
     },
     "files.associations": {
-        "*.eex": "HTML (Eex)"
+        "*.eex": "HTML (Eex)",
+        "*.js": "javascriptreact"
     },
     "editor.snippetSuggestions": "top",
     "editor.minimap.enabled": false,
