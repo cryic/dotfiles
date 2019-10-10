@@ -1,7 +1,7 @@
 {
     "editor.renderWhitespace": "boundary",
     "editor.tabSize": 2,
-    "editor.fontFamily": "'Input Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Cascadia Code', 'Input Mono', monospace",
     "editor.wordWrap": "on",
     //general settings
     "workbench.sideBar.location": "right",
@@ -47,19 +47,27 @@
             ]
         }
     ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "m"
+            ],
+            "commands": [
+                "bookmarks.toggle"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "commands": [
+                "bookmarks.list"
+            ]
+        }
+    ],
     //gitlens
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
-        "suppressShowKeyBindingsNotice": true,
-        "suppressUpdateNotice": false,
-        "suppressWelcomeNotice": true
-    },
     "gitlens.keymap": "none",
     //solargraph
     "solargraph.commandPath": "/Users/matthew.clutter/.rbenv/shims/solargraph",
@@ -75,7 +83,6 @@
     },
     "editor.snippetSuggestions": "top",
     "editor.minimap.enabled": false,
-    "prettier.eslintIntegration": true,
     "javascript.format.enable": false,
     "eslint.alwaysShowStatus": true,
     "vscode_custom_css.imports": [
@@ -86,7 +93,16 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": true,
     "workbench.settings.enableNaturalLanguageSearch": false,
-    "workbench.colorTheme": "Cyberpunk",
-    "editor.lineNumbers": "relative",
+    "workbench.colorTheme": "Activate UMBRA protocol",
     "explorer.openEditors.visible": 0,
+    "editor.lineNumbers": "relative",
+    "breadcrumbs.enabled": true,
+    "workbench.editor.tabCloseButton": "left",
+    "editor.fontLigatures": true,
+    "update.mode": "manual",
+    "search.exclude": {
+        "**/.cache": true,
+        "**/.github": true,
+        "**/.storybook": true
+    },
 }
