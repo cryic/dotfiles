@@ -50,7 +50,7 @@ function gatsdev --description 'alias gatsdev=rm -rf .cache; gatsby develop'
 end
 
 # app
-function code --wraps vscodium --description 'alias code=vscodium'
+function codium --wraps vscodium --description 'alias codium=vscodium'
   vscodium $argv
 end
 
@@ -61,3 +61,10 @@ function my_vi_bindings
   bind -M insert -m default fd backward-char force-repaint
 end
 set -g fish_key_bindings my_vi_bindings
+
+# setup for data-eng
+# probably not ideal to have here
+## setup pyenv
+source (pyenv init - | psub)
+## define airflow install
+set -x AIRFLOW_HOME ~/code/airflow
