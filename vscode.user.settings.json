@@ -24,7 +24,9 @@
     "vim.sneak": true,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
-    "vim.leader": "<space>",
+    // setting to actual space character vs <space>
+    // due to https://github.com/VSCodeVim/Vim/issues/1132#issuecomment-265332785
+    "vim.leader": " ",
     "vim.insertModeKeyBindings": [
         {
             "before": [
@@ -72,7 +74,6 @@
     //solargraph
     "solargraph.commandPath": "/Users/matthew.clutter/.rbenv/shims/solargraph",
     "ruby.intellisense": "rubyLocate",
-    "editor.formatOnSave": true,
     "files.trimTrailingWhitespace": true,
     "[handlebars]": {
         "editor.formatOnSave": false,
@@ -105,4 +106,5 @@
         "**/.github": true,
         "**/.storybook": true
     },
+    "editor.formatOnSave": true,
 }
