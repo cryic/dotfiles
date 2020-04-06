@@ -1,7 +1,7 @@
 {
     "editor.renderWhitespace": "boundary",
     "editor.tabSize": 2,
-    "editor.fontFamily": "'Cascadia Code', 'Input Mono', monospace",
+    "editor.fontFamily": "'Cascadia Code PL', 'Input Mono', monospace",
     "editor.wordWrap": "on",
     //general settings
     "workbench.sideBar.location": "right",
@@ -86,10 +86,6 @@
     "editor.minimap.enabled": false,
     "javascript.format.enable": false,
     "eslint.alwaysShowStatus": true,
-    "vscode_custom_css.imports": [
-        "file:///Users/matthew.clutter/dotfiles/styles/synthwave84.css"
-    ],
-    "vscode_custom_css.policy": true,
     "liveshare.featureSet": "insiders",
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": true,
@@ -107,4 +103,5 @@
         "**/.storybook": true
     },
     "editor.formatOnSave": true,
+    "editor.fontSize": 14,
 }

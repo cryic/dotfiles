@@ -43,7 +43,7 @@ function gfr --wraps git --description 'alias gfr=git fetch --all'
   git fetch --all
 end
 function gitclean --description 'prunes remote references then deletes local branches'
-  git remote prune origin | git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d
+  git remote prune origin | git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -D
 end
 function gatsdev --description 'alias gatsdev=rm -rf .cache; gatsby develop'
   rm -rf .cache; gatsby develop
