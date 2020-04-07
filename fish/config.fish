@@ -39,6 +39,9 @@ end
 function gco --wraps 'git checkout' --description 'alias gco=git checkout'
   git checkout $argv
 end
+function gcob --wraps 'git checkout -b' --description 'alias gcob=git checkout -b'
+  git checkout -b $argv
+end
 function gfr --wraps git --description 'alias gfr=git fetch --all'
   git fetch --all
 end
