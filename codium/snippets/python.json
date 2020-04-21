@@ -18,5 +18,12 @@
 			"from $1 import $2"
 		],
 		"description": "Insert from ... import ..."
-	}
+	},
+	"print with label": {
+		"prefix": "printl",
+		"body": [
+			"print(f\"$1: {$1}\")"
+		],
+		"description": "Print variable value with variable name as label"
+	},
 }
