@@ -90,7 +90,6 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": true,
     "workbench.settings.enableNaturalLanguageSearch": false,
-    "workbench.colorTheme": "Horizon Italic",
     "explorer.openEditors.visible": 0,
     "editor.lineNumbers": "relative",
     "breadcrumbs.enabled": true,
@@ -104,4 +103,5 @@
     },
     "editor.formatOnSave": true,
     "editor.fontSize": 14,
+    "workbench.colorTheme": "SynthWave '84",
 }
