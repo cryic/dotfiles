@@ -1,0 +1,107 @@
+{
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 2,
+    "editor.fontFamily": "'Cascadia Code PL', 'Input Mono', monospace",
+    "editor.wordWrap": "on",
+    //general settings
+    "workbench.sideBar.location": "right",
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.multiCursorModifier": "alt",
+    "workbench.statusBar.feedback.visible": false,
+    "files.insertFinalNewline": true,
+    //extensions
+    //emmet
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    //vim
+    "vim.enableNeovim": true,
+    "vim.neovimPath": "/usr/local/bin/nvim",
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    // setting to actual space character vs <space>
+    // due to https://github.com/VSCodeVim/Vim/issues/1132#issuecomment-265332785
+    "vim.leader": " ",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "f",
+                "d"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "j"
+            ],
+            "after": [
+                "g",
+                "j"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "m"
+            ],
+            "commands": [
+                "bookmarks.toggle"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "commands": [
+                "bookmarks.list"
+            ]
+        }
+    ],
+    //gitlens
+    "gitlens.keymap": "none",
+    //solargraph
+    "solargraph.commandPath": "/Users/matthew.clutter/.rbenv/shims/solargraph",
+    "ruby.intellisense": "rubyLocate",
+    "files.trimTrailingWhitespace": true,
+    "[handlebars]": {
+        "editor.formatOnSave": false,
+    },
+    "files.associations": {
+        "*.eex": "HTML (Eex)",
+        "*.js": "javascriptreact"
+    },
+    "editor.snippetSuggestions": "top",
+    "editor.minimap.enabled": false,
+    "javascript.format.enable": false,
+    "eslint.alwaysShowStatus": true,
+    "liveshare.featureSet": "insiders",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.colorTheme": "Horizon Italic",
+    "explorer.openEditors.visible": 0,
+    "editor.lineNumbers": "relative",
+    "breadcrumbs.enabled": true,
+    "workbench.editor.tabCloseButton": "left",
+    "editor.fontLigatures": true,
+    "update.mode": "manual",
+    "search.exclude": {
+        "**/.cache": true,
+        "**/.github": true,
+        "**/.storybook": true
+    },
+    "editor.formatOnSave": true,
+    "editor.fontSize": 14,
+}
