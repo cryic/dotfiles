@@ -1,1 +1,1 @@
-/Users/matthew.clutter/.local/share/omf/themes/sushi/fish_prompt.fish
+/Users/mat/.local/share/omf/themes/clearance/fish_prompt.fish

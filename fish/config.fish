@@ -53,9 +53,9 @@ function gatsdev --description 'alias gatsdev=rm -rf .cache; gatsby develop'
 end
 
 # app
-function codium --wraps vscodium --description 'alias codium=vscodium'
-  vscodium $argv
-end
+# function codium --wraps vscodium --description 'alias codium=vscodium'
+#   vscodium $argv
+# end
 
 ## setup vim mode
 fish_vi_key_bindings
@@ -65,14 +65,3 @@ function my_vi_bindings
 end
 set -g fish_key_bindings my_vi_bindings
 
-###### WORK
-# setup for data-eng
-# probably not ideal to have here
-## setup pyenv
-source (pyenv init - | psub)
-## define airflow install
-set -x AIRFLOW_HOME ~/code/airflow
-
-function okta-aws --description 'alias okta-aws to docker'
-  bash -c 'f(){ cmd="docker run -it --rm -v ~/.aws:/package/.aws okta-aws sh -c \"python /package/samlapi.py "$@"\""; bash -c "${cmd}" unset -f f; }; f'
-end
