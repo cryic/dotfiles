@@ -102,6 +102,9 @@
         "**/.storybook": true
     },
     "editor.formatOnSave": true,
-    "editor.fontSize": 14,
-    "workbench.colorTheme": "SynthWave '84",
+    "workbench.colorTheme": "Horizon Italic",
+    "workbench.colorCustomizations": {
+        "contrastBorder": "#16161C"
+    },
+    "editor.fontSize": 13
 }

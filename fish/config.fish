@@ -51,6 +51,10 @@ end
 function gatsdev --description 'alias gatsdev=rm -rf .cache; gatsby develop'
   rm -rf .cache; gatsby develop
 end
+#elixir
+function iexm --description 'alias iexm=iex -S mix'
+  iex -S mix
+end
 
 # app
 # function codium --wraps vscodium --description 'alias codium=vscodium'
