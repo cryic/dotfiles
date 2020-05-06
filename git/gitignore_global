@@ -43,3 +43,6 @@ Thumbs.db
 .elixir_ls
 .vscode
 .solargraph.yml
+
+# elixir build
+_build
