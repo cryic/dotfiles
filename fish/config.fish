@@ -4,7 +4,8 @@ source ~/.asdf/asdf.fish
 # set nvim as default editor
 set -U EDITOR nvim
 # enable erlang/elixir shell history
-set ERL_AFLAGS "-kernel shell_history enabled"
+set -x ERL_AFLAGS "-kernel shell_history enabled"
+set -x ELIXIR_EDITOR "codium --goto __FILE__:__LINE__"
 #gpg code signing
 set -x GPG_TTY (tty)
 set -x SSH_AUTH_SOCK ~/.gnupg/S.gpg-agent.ssh
