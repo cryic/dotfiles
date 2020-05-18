@@ -106,5 +106,6 @@
     "workbench.colorCustomizations": {
         "contrastBorder": "#16161C"
     },
-    "editor.fontSize": 13
+    "editor.fontSize": 13,
+    "search.useGlobalIgnoreFiles": true
 }
