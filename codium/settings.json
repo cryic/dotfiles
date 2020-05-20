@@ -79,7 +79,7 @@
         "editor.formatOnSave": false,
     },
     "files.associations": {
-        "*.eex": "HTML (Eex)",
+        "*.eex": "html-eex",
         "*.js": "javascriptreact"
     },
     "editor.snippetSuggestions": "top",
