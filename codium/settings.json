@@ -14,7 +14,8 @@
     //emmet
     "emmet.triggerExpansionOnTab": true,
     "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
+        "javascript": "javascriptreact",
+        "html-eex": "html"
     },
     //vim
     "vim.enableNeovim": true,
