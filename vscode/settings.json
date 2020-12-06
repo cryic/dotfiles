@@ -6,7 +6,6 @@
     //general settings
     "workbench.sideBar.location": "right",
     "window.zoomLevel": 1,
-    "workbench.iconTheme": "material-icon-theme",
     "editor.multiCursorModifier": "alt",
     "workbench.statusBar.feedback.visible": false,
     "files.insertFinalNewline": true,
@@ -110,9 +109,11 @@
     "editor.fontSize": 13,
     "search.useGlobalIgnoreFiles": true,
     "[csharp]": {
-        "editor.defaultFormatter": "Leopotam.csharpfixformat"
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
     },
     "csharpfixformat.style.newline.atEnd": true,
     "csharpfixformat.style.spaces.beforeParenthesis": false,
-    "omnisharp.useGlobalMono": "always"
+    "omnisharp.useGlobalMono": "always",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false
 }
